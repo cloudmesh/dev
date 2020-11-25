@@ -1,5 +1,7 @@
 #! /bin/sh
 
+banner PYTHON
+
 PROCS=`nproc`
 
 sudo apt update
@@ -11,3 +13,10 @@ cd Python-3.9.0
 ./configure --enable-optimizations
 make -j $NPROC
 sudo make altinstall
+python3.9 -m ensurepip
+python3.9 -m pip install -U pip
+python3.9 -m venv install 
+python3.9 -m venv ~/ENV3
+
+# curl https://bootstrap.pypa.io/get-pip.py | python3.9
+
