@@ -1,5 +1,10 @@
 #! /bin/sh
 
 sudo apt update
-sudo apt install texlive-latex-extra
+
+banner LaTeX
+sudo apt install texlive-latex-extra -y
+
+banner jabref
+sudo snap install jabref
 
