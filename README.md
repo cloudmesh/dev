@@ -2,7 +2,7 @@
 create a dev environment for ubuntu for developers
 
 
-## Acknowledgements
+## Acknowledgments
 
 Continued work was in part funded by the NSF
 CyberTraining: CIC: CyberTraining for Students and Technologies
